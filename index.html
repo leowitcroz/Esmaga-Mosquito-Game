@@ -9,10 +9,24 @@
     <title>Document</title>
   </head>
   <body onresize="ajustaTamanhoPalco()">
+    
+        <div class="painel">
+            <div class="vida">
+                <img src="imagens/coracao_vazio.png" alt="">
+                <img src="imagens/coracao_cheio.png" alt="">
+                <img src="imagens/coracao_cheio.png" alt="">
+            </div>
+
+            <div class="cronometro">
+                Tempo restante : ?
+            </div>
+        </div>
 
     
     <script>
-      posicaoRandomica()
+      setInterval(() =>{
+        posicaoRandomica()
+      },1000)
     </script>
   </body>
 </html>
